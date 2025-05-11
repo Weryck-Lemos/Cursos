@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Dom</title>
+
+    <style>
+        .test {
+            font: normal 20px;
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div id="test" class='test'>
+        Interaja
+    </div>
+
+    <script>
+        var a = window.document.getElementById('test');
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+
+        function clicar(){
+            a.innerText = 'Clicou';
+            a.style.background = 'red';
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou';
+        }
+
+        function sair(){
+            a.innerText = 'Saiu';
+            a.style.background = 'green';
+        }
+
+    </script>
+    
+</body>
+</html>

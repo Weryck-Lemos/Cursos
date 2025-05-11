@@ -1,40 +1,40 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #7ff8b2;
     color: #333
 }
 
-.cabecalho{
-    background: linear-gradient(135deg,#27ae60, #104b28);
+.cabecalho {
+    background: linear-gradient(135deg, #27ae60, #104b28);
     text-align: center;
     color: #ffffff;
     padding: 40px 20px;
     border-bottom: 4px solid #01e761;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     margin: 0;
     font-size: 2.6em;
     color: #ffffff;
     letter-spacing: 1px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.cabecalho p{
+.cabecalho p {
     margin-top: 15px;
     font-size: 1.0em;
     color: #d9f9e6;
 }
 
-.menu{
+.menu {
     background-color: #ffffff;
     padding: 15px 0px;
     width: 100%;
     margin-top: 30px;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ body{
     gap: 40px;
 }
 
-.menu a{
+.menu a {
     color: #27ae60;
     text-decoration: none;
     font-weight: bold;
@@ -53,22 +53,22 @@ body{
     transition: background-color 0.6s ease, color 0.6s ease;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: #27ae60;
     color: #ffffff;
 }
 
-.conteudo{
+.conteudo {
     max-width: 900px;
     margin: auto;
     padding: 40px 30px 40px 30px;
     line-height: 1.7;
     color: #333333;
     background-color: #f8fff8;
-    
+
 }
 
-.artigo h2{
+.artigo h2 {
     background: linear-gradient(to right, #8ffcbc, #ffffff);
     color: #1b5e20;
     font-size: 2em;
@@ -77,17 +77,17 @@ body{
     border-radius: 12px;
     margin: 0 0 0 0;
     margin-left: -7px;
-    text-align:left;
+    text-align: left;
 }
 
-.artigo h3{
+.artigo h3 {
     color: #2ecc71;
     margin: 50px 0 0 0;
     margin-bottom: 10px;
     font-size: 1.5em;
 }
 
-.artigo p{
+.artigo p {
     margin-bottom: 20px;
     font-size: 1.1em
 }
@@ -101,46 +101,34 @@ body{
 .video {
     text-align: center;
     margin: 40px 0;
-  }
-  
-.extra{
+}
+
+.extra {
     background-color: #f0fdf4;
     border-left: 6px solid #2ecc71;
     padding: 20px 20px;
     border-radius: 8px;
 }
 
-.lista-dupla{
-    display: flex;
-    gap: 300px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
 
-.lista-dupla ul {
+.lista-dupla {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 50%;
-  }
+    columns: 2;
+    padding-left: 18%;
+}
 
-  .lista-dupla li:hover{
+.lista-dupla li:hover {
     color: #2ecc71;
-  }
-
-.lista-dupla .esquerda{
-    text-align: left;
-    padding-left: 60px;
 }
 
-.lista-dupla .direita{
-    text-align: right;
-    padding-right: 60px;
-}
 
-.extra h3{
-    color: #1b5e20;
+.extra h3 {
+    background-color: #1b5e20;
+    color: #ffffff;
     font-size: 1.5em;
+    padding-left: 10px;
+    margin: -20px -20px 0px -26px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .extra a {
@@ -149,22 +137,22 @@ body{
     text-decoration: none;
 }
 
-.extra a:hover{
+.extra a:hover {
     text-decoration: underline;
 }
 
-.rodape{
+.rodape {
     text-align: center;
     margin-top: 60px;
     padding: 30px 20px;
     color: #666;
 }
 
-.rodape p{
+.rodape p {
     font-size: 1.1em;
 }
 
-.rodape .credito{
+.rodape .credito {
     font-size: 0.95em;
     padding-top: 50px;
 }
