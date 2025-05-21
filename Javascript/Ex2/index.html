@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exrcício 2</title>
+    <title>Exercício 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        Título
+        
     </header>
 
     <section>
-        <div>Testando</div>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name ="txtano" id="txtano">
+            </p>
+
+            <p>
+                Sexo:
+                <br>
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            
+
+        </div>
+        <img src="imagens/icone.png" alt="imagem" id="imagem">
+        <div id="res">
+            digite os dados
+        </div>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()" id="botao">
+        </p>
 
     </section>
 
