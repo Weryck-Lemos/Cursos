@@ -3,17 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exrcício 3</title>
+    <title>Exercício 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        Título
+        Vamos Contar!
     </header>
 
     <section>
-        <div>Testando</div>
+        <div>
+            <p class="texto">Inicio:
+                <input type="number" name="ini" id="ini">
+            </p>
 
+            <p class="texto">Fim:
+                <input type="number" name="fim" id="fim">
+            </p>
+
+            <p class="texto">Passo:
+                <input type="number" name="passo" id="passo">
+            </p>
+        </div>
+
+        <input type="button" value="Verificar" onclick="verificar()" id="botao">
+
+        <div id="res">
+            Resultado
+        </div>
     </section>
 
     <footer>

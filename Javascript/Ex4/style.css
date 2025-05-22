@@ -1,6 +1,5 @@
 body{
     background-color: rgb(91, 91, 214);
-
 }
 
 header{
@@ -13,7 +12,7 @@ section{
     border-radius: 10px;
     padding: 18px;
     width: 500px;
-    margin: auto; 
+    margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
@@ -22,22 +21,12 @@ footer{
     text-align: center;
 }
 
-#imagem{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: auto;
+#sec{
+   text-align: center;
 }
 
-#res{
-    padding-top: 20px;
-    text-align: center;
-}
-
-
-#botao{
+#seltab{
     display: block;
     margin: auto;
+    padding: 5px;
 }

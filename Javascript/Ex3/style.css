@@ -21,3 +21,32 @@ footer{
     color: white;
     text-align: center;
 }
+.texto{
+    text-align: center;
+    padding-top: 10px;
+}
+#ini{
+    display: block;
+    margin: auto;
+}
+
+#fim{
+    display: block;
+    margin: auto;
+}
+
+#passo{
+    display: block;
+    margin: auto;
+
+}
+
+#botao{
+    display: block;
+    margin: auto;
+    padding: 6px;
+}
+
+#res{
+    padding: 10px;
+}
