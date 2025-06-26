@@ -6,8 +6,8 @@ global _start
 
 _start:
     lea esi, [BUFFER] ; load effective address (esi é um ponteiro) 
-    add esi, 0x9
-    mov byte[esi], 0xA
+    add esi, 0x9   ;ponteiro avança 9 bits
+    mov byte[esi], LF
 
     dec esi ;realoca o ponteiro
     mov dl, 0x13 ;0x11=='C'

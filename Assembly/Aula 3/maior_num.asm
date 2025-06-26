@@ -20,8 +20,8 @@ section .data
     ;dq: 8 bytes     define quad word (64bits)
     ;dt: 10 bytes    define ten word (80bits)
 
-    x dd 10
-    y dd 50
+    x dd 25
+    y dd 30
     msg1 db 'X maior que Y', LF, LF, NULL
     tam1 equ $- msg1 ;tamanho logo em seguida, se nao ele pega o tamanho das duas msg
 
@@ -33,18 +33,18 @@ section .text
 global _start
 
 _start:
-    mov eax, DWORD[x]
-    mov ebx, DWORD[y]
+    mov eax, [x]
+    mov ebx, [y]
 
     ; if
     cmp eax, ebx
     ; SALTOS CONDICIONAIS
     ;je ==      jump if equal
-    ;jg >       jump if not equal
-    ;jge >=     jump if greater
-    ;jl <       jump if greater or equal
-    ;jle <=     jump if less
-    ;jne !=     jump if less or equal
+    ;jg >       jump if greater
+    ;jge >=     jump if greater or equal
+    ;jl <       jump if less
+    ;jle <=     jump if less or equal
+    ;jne !=     jump if not equal 
 
     ;SALTO INCONDICIONAL
     ;jmp        jump

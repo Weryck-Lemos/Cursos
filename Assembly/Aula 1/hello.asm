@@ -23,4 +23,4 @@ _start:
 
     mov eax, 0x1 ;syscall exit
     mov ebx, 0x0 ;codigo de saida 0 (sucesso)
-    int 0x80
+    int 0x80 
