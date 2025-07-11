@@ -1,4 +1,4 @@
-import cv2
+ import cv2
 
 camera = cv2.VideoCapture(0)
 classificador = cv2.CascadeClassifier(r"arquivos/cascades/haarcascade_eye.xml")

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daedde77-0d72-4606-915c-29969a4108ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OpenCV/4  Contador de Vagas/capturarVagas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV/4  Contador de Vagas/contarVagas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/1.Abrit_imagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/1.Abrit_imagem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/2.abrir_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/2.abrir_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/3.abrir_webcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/1 Funções Básicas/3.abrir_webcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/3 Haarcascade/Harcascades.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/3 Haarcascade/Harcascades.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/Reconhecimento Facial 1.0/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/Reconhecimento Facial 1.0/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2zhcKLwuUXSwnr0bI5XVjsesypm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/weryck/Documentos/Cursos/OpenCV"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-598b0484d0b5-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daedde77-0d72-4606-915c-29969a4108ee" name="Changes" comment="" />
+      <created>1752186680718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752186680718</updated>
+    </task>
+    <servers />
+  </component>
+</project>

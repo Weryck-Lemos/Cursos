@@ -1,6 +1,8 @@
 import cv2
 
 img = cv2.imread('imagem.jpg') #le uma imagem
+
+img = cv2.resize(img, (480,360))
 imgCinza = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 print(img.shape)#tamanho da imagem
 cv2.imshow('exemplo',img) #mostra a imagem
