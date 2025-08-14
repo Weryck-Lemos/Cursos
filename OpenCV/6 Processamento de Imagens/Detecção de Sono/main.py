@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import math
 import time
-import serial
 
 video = cv2.VideoCapture(0)
 mpFaceMash = mp.solutions.face_mesh
