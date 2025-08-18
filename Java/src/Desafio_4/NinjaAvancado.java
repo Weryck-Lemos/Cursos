@@ -16,15 +16,15 @@ public class NinjaAvancado implements Ninja{
     @Override
     public void mostrarInformacoes(){
         System.out.println("Ninja Avançado");
-        System.out.println("Nome: "+nome);
-        System.out.println("Idade: "+idade);
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
         System.out.println("Habilidade: " + habilidade);
         System.out.println("Especialidade: " + especialidade);
     }
 
     @Override
     public void executarHabilidade(){
-        System.out.println(nome + " está executando: "+ habilidade +
+        System.out.println(nome + " está executando: " + habilidade +
                 " com especilidade em "+ especialidade);
     }
 }
